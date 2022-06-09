@@ -13,6 +13,9 @@ body{
 .figure-text-section{
     width:100%;
 }
+.divisor-line{
+    font-size: 30px;
+}
 .imagine{
     min-width:100px;
     min-height:200px;
@@ -71,3 +74,10 @@ body{
   .w-45{
       width:45%;
   }
+  /* pseudoelementi */
+  .divisor-line::after{
+    content: '______________';
+    }
+    .divisor-line::before{
+        content: '______________';
+        }
