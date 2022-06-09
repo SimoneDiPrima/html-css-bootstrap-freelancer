@@ -1,0 +1,38 @@
+body{
+    overflow-x: hidden;
+}
+.header-mobile{
+   background-color: slateblue;
+    height:100px;
+    width:100%;
+}
+.row-header , .burger-menu{
+    height:100%;
+    max-width:100%;
+}
+.figure-text-section{
+    width:100%;
+}
+.imagine{
+    min-width:100px;
+    min-height:200px;
+    border:1px solid black;
+}
+.section-divisor{
+    width:60%;
+    color:red;
+}
+.figure-text-section{
+    background-color: aquamarine;
+}
+.bigger-star-divisor{
+    font-size:38px;
+}
+.image-bigger{
+    width:100%;
+    min-height:200px;
+    border:1 px solid red;
+}
+.debugger{
+    border:2px solid red;
+}
