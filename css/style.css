@@ -36,3 +36,35 @@ body{
 .debugger{
     border:2px solid red;
 }
+.border-white{
+    border:1px solid white;
+}
+.background-aqua-section{
+    background-color: aqua;
+}
+.text-message{
+    min-height:100px;
+}
+.send-button{
+    width:100px;
+    font-size: 20px;
+  background-color: blue;
+  color:white
+}
+.location{
+    min-height:200px;
+}
+  .gray-color{
+      background-color: slategray;
+  }
+  .black-color{
+      background-color: black;
+  }
+  .footer-section{
+     min-height:150px;
+  }
+  .text-footer-container{
+      vertical-align: middle;
+      height:100px;
+      width:100%;
+  }
