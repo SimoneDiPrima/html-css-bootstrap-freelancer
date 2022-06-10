@@ -4,6 +4,9 @@ body{
 .bg-darkblue{
     background-color: #2c3e50;
 }
+.dark-lightblue{
+    background-color:rgb(153, 152, 242);
+}
 .row-header{
     height:100%;
     max-width:100%;
