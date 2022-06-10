@@ -16,9 +16,13 @@ body{
     font-size: 30px;
 }
 .imagine{
-    min-width:100px;
-    min-height:200px;
-    border:1px solid black;
+   width:50%;
+   height:50%;
+   text-align: center;
+}
+.avatar-image{
+    width:50%;
+    height:50%;
 }
 .section-divisor{
     width:60%;
