@@ -79,10 +79,26 @@ body{
   .w-45{
       width:45%;
   }
-  /* pseudoelementi */
-  .divisor-line::after{
-    content: '______________';
+  
+    .middle-section{
+        height:100px;
     }
+  /* .divisor-line{
+    line-height:24px;}
+     */
+  /* pseudoelementi */
+  /* .divisor-line::after{
+    content: '______________';
+    /* } */
     .divisor-line::before{
         content: '______________';
+        line-height:200px;
         }
+.text-inside{
+    line-height:100px;
+}
+.lorem-about{padding:10px}
+
+.subtitle-section{
+    font-size: 20px;
+}
