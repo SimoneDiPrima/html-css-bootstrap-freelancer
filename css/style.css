@@ -122,3 +122,8 @@
 .subtitle-section{
     font-size: 20px;
 }
+#textarea-form{
+    resize: vertical;
+    border: none;
+
+}
