@@ -37,8 +37,9 @@
     <section class="figure-text-section py-4">
         <div class="container-fluid">
             <div class="container">
-                <div class="row">
-                    <figure class="imagine mx-auto d-block"><img id="avatar-image" src="img/avatar.svg" alt=""></figure>
+                <div class="row flex-column">
+                    <div class="col mx-auto d-block text-center">
+                        <img id="avatar-image" src="img/avatar.svg" alt=""> 
                         <h1 class="text-center">START BOOTSTRAP</h1>
                     </div>
                     <div class="col d-flex text-center justify-content-center">
@@ -47,12 +48,11 @@
                         <div class="divider-customer-line text-center">______________</div>
                     </div>
                     </div>
-                    <div class="row text-center justify-content-center  text-white">
-                        <div class="col">
+                <div class="row text-center justify-content-center  text-white">
+                    <div class="col">
                             <span class="subtitle-section">GRAPHIC ARTIST -</span>
-                            <span class="subtitle-section">WEB-DESIGNER -</soan>
+                            <span class="subtitle-section">WEB-DESIGNER -</span>
                             <span class="subtitle-section">ILLUSTRATOR</span>
-                        </div>
                     </div>
                 </div>
             </div> 
@@ -111,8 +111,8 @@
                     your work,a professional looking to attract clients, or a graphic ARTIST
                  looking to share your projects, this template is the perfect starting point </p>
             </div>
-                <button class="background-aqua-section text-white border-white py-4 display-6 rounded"><i class="bi bi-download"></i> download</button>
-
+            <button class="background-aqua-section text-white border-white py-4 display-6 rounded"><i class="bi bi-download"> </i> download</button>
+        </div>
     </section>
     <section class="contact-me">
         <div class="container py-5 text-center">
@@ -124,18 +124,20 @@
             </div>
             <ul class="text-start py-5 list-unstyled">
                 <li>NAME</li>
-                <li> <hr> </li>
+                <li> <hr class="form-divider"> </li>
                 <li>EMAIL ADDRESS</li>
-                <li> <hr> </li>
+                <li> <hr class="form-divider"> </li>
                 <li>PHONE NUMBER</li>
-                <li> <hr> </li>
-                <li class="text-message">
-                    MESSAGE
-                    <textarea name="message" id="textarea-form" cols="132" rows="10">
+                <li> <hr class="form-divider"> </li>
+                <li>MESSAGE</li>
+                <li class="text-message my-3">
+                    <textarea name="message" id="textarea-form" cols="130" rows="10">
                     </textarea>
                 </li>
-                <hr>
-                <button class="send-button py-3 text-center rounded">send</button>
+                <!-- <li><hr></li> -->
+                <li>
+                    <button class="send-button py-3 text-center rounded">send</button>
+                </li>
             </ul>
         </div>
  
@@ -152,7 +154,7 @@
                     <span><i class="bi bi-facebook"> </i>
                         <i class="bi bi-twitter"></i>
                         <i class="bi bi-linkedin"></i>
-                        </i> <i class="bi bi-google"></i>
+                        <i class="bi bi-google"></i>
                     </span>
                 </div>
                 <div class="col col-md-4 py-3">
@@ -165,10 +167,9 @@
         </div>
     </section>
     <section class="footer-section bg-darkblue">
-        <row class="container text-white text-footer-container">
+        <div class="container text-white text-footer-container">
             <h6 class="text-center align-middle text-inside">Copyright your website 2019</h6>
         </div>
-
     </section>
 
 </body>
